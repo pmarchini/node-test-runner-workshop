@@ -1,48 +1,21 @@
 {
-  "name": "node-test-runner-workshop",
+  "name": "slidev-presentation-template",
   "version": "1.0.0",
-  "description": "A workshop about the Node.js test runner",
-  "main": "index.js",
+  "description": "A clean Slidev presentation template",
   "type": "module",
-  "workspaces": [
-    "src/*"
-  ],
   "scripts": {
-    "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "prepare": "husky",
     "build": "slidev build",
-    "start": "slidev --open",
-    "export": "slidev export",
-    "verify-solution": "npm run verify-solution --workspaces --if-present"
+    "dev": "slidev --open",
+    "export": "slidev export"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nearform/node-test-runner-workshop"
-  },
-  "keywords": [],
+  "keywords": [
+    "slidev",
+    "presentation",
+    "template"
+  ],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nearform/node-test-runner-workshop/issues"
-  },
-  "homepage": "https://github.com/nearform/node-test-runner-workshop#readme",
-  "devDependencies": {
-    "@commitlint/cli": "^19.5.0",
-    "@commitlint/config-conventional": "^19.5.0",
-    "cross-env": "^7.0.3",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "husky": "^9.1.6",
-    "lint-staged": "^15.2.10",
-    "prettier": "^3.3.3"
-  },
-  "lint-staged": {
-    "*.{js,jsx}": "eslint --cache --fix"
-  },
+  "license": "MIT",
   "dependencies": {
-    "@slidev/cli": "^0.49.29",
-    "slidev-theme-nearform": "^2.0.0"
+    "@slidev/cli": "^0.49.29"
   }
 }

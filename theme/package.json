@@ -1,0 +1,21 @@
+{
+  "name": "my-custom-slidev-theme",
+  "type": "module",
+  "version": "1.0.0",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "slidev": ">=0.47.0"
+  },
+  "main": "./index.ts",
+  "files": [
+    "components",
+    "layouts",
+    "styles",
+    "index.ts",
+    "package.json"
+  ]
+}
