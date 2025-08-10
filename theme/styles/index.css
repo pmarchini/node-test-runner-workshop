@@ -9,6 +9,7 @@
 .slidev-layout {
   background: var(--slidev-theme-background);
   color: var(--slidev-theme-text);
+  height: -webkit-fill-available;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,8 +25,9 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.7;
 }
 
-/* Custom slide styling */
 .slidev-layout.default {
+  padding: 2.5rem 3.5rem;
+  font-size: 1.1rem;
   position: relative;
 }
 
